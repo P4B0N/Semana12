@@ -4,28 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <title>pagina_2</title>
 </head>
 
 <body>
-
-    <!-------------------------------------------------------------------------------------------------->
-    <header>
-        <center><h1>Sitio Web de muestra</h1></center>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="pagina1.html">Página 1</a></li>
-            <li><a href="pagina2.html">Página 2</a></li>
-            <li><a href="pagina3.html">Página 3</a></li>
-            <li><a href="pagina4.html">Página 4</a></li>
-        </ul>
-    </header>
-
-    <!-------------------------------------------------------------------------------------------------->
-    <center><h3>Página principal</h3></center>
-    <p>Esta página, <b>index.html</b>, es la que se carga por defecto al ingresar al sitio web..</p>
-    <!-------------------------------------------------------------------------------------------------->
-
-
+    <div class="padre">
+        <header class="header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">List</a></li>
+                    <li><a href="#">Tutorial</a></li>
+                    <li><a href="#">Download</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article class="articulo">
+            <div id="kiko-slider">
+  
+                <ul class="slider">
+                  <li id="slide1">
+                    <h1>Hola Programadores</h1>
+                    <img src="https://technofaq.org/wp-content/uploads/2020/01/Help-Desk-Software.jpg"/>
+                  </li>
+                  <li id="slide2">
+                    <img src="https://www.dentalfraudbusters.com/wp-content/uploads/2021/04/cpa-review.jpg"/>
+                  </li>
+                  <li id="slide3">
+                    <h1>Ejemplo con otros elementos</h1>
+                    <p>Esto es un párrafo de ejemplo para comprobar que podemos meter cualquier tipo de elementos en el slider</p>
+                    <a href="https://kikopalomares.com/">¡Corre a mi web para más contenido!</a>
+                  </li>
+                </ul>
+                
+                <ul class="menu">
+                  <li>
+                    <a href="#slide1">1</a>
+                  </li>
+                  <li>
+                    <a href="#slide2">2</a>
+                  </li>
+                   <li>
+                    <a href="#slide3">3</a>
+                  </li>
+                </ul>
+                
+              </div>
+        </article>
+        <aside class="aside izquierdo"></aside>
+        <aside class="aside derecho"></aside>
+        <footer class="footer">Footer</footer>
+    </div>
 </body>
-</html>
