@@ -192,7 +192,9 @@ footer{
     border-radius: 3px;
   }
   
-  .nav-menu-link:hover,
+  .nav-menu-link:hover {
+    color: #c68e02;
+    }
   .nav-menu-link_active {
     background-color: #034574;
     transition: 0.5s;
@@ -378,7 +380,7 @@ footer{
       content: "\f16d";
     }
     
-    
+   
   
     
     
