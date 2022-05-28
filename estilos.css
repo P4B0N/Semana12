@@ -8,7 +8,7 @@ body{
     background-color: lightskyblue;
     font-family: sans-serif;
     width: 100%;
-    padding: 80px 10px 0;
+    padding: 80px 0 10px 0;
 }
 
 header {
@@ -45,12 +45,12 @@ footer{
         text-align:center;
         width: 100%;
         height: 100%;
-        padding:10px 0 90px 0px;
+        padding:10px 0 90px 0;
 }
 .articulo, .izquierdo, .derecho {                                                          
         flex-grow:1;
         flex-basis: 100%;
-        padding:10px;
+        padding:0;
 }
 @media all and (min-width: 700px){
         .aside {flex:1 1 auto;}
@@ -64,8 +64,8 @@ footer{
 
 
 .articulo{background:white;}
-.izquierdo{background: rlightskyblueed;}
-.derecho{background:lightskyblue;}
+.izquierdo{background: red;}
+.derecho{background:green;}
 
 
 /******************************************************************/
@@ -76,12 +76,12 @@ footer{
      background-color: lightskyblue;
      max-width: 800px;
      width: 100%;
-     padding: 10;
+     padding: 0;
      box-sizing: border-box;
    }
    
    #Slider > ul, li {
-       padding: 0;
+       padding: 10px;
        margin: 0;
        list-style: none;
    }
@@ -95,10 +95,11 @@ footer{
    
    #Slider > ul.slider h1{
      position: absolute;
-     background-color: rgba(255, 255, 255, 0.6);
+     background-color: rgba(255, 255, 255, 0);
+     opacity: .4;
      padding: 10px;
      left: 50%;
-     top: 100px;
+     top: 250px;
      transform: translate(-50%, -50%);
    }
    
@@ -118,6 +119,12 @@ footer{
      height: 300px;
      object-fit: cover;
    }
+
+   .txt {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+   }
    
    #Slider > ul.slider li:first-child {
        opacity: 1; /*Mostramos el primer <li>*/
@@ -127,26 +134,32 @@ footer{
        opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
    }
    
-   #Slider > .menu{
+   #slide-menu > .menu{
      text-align: center;
-     margin: 50px;
+     margin: 60px;
    }
+   #slide-menu ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    }
    
-   #Slider > .menu li{
+   #slide-menu > .menu li{
      display: inline-block;
      text-align: center;
    }
    
-   #Slider > .menu li a{
+   #slide-menu > .menu li a{
      display: inline-block;
      color: white;
      text-decoration: none;
      background-color: #0769e9;
-     padding: 0;
+     padding: 2px;
      width: 20px;
      height: 20px;
-     font-size: 20px;
-     border-radius: 100%;
+     font-size: 15px;
+     border-radius: 50%;
    }
 
    /*****************************************************/
@@ -196,7 +209,7 @@ footer{
     color: #c68e02;
     }
   .nav-menu-link_active {
-    background-color: #034574;
+    background-color:#c68e02;
     transition: 0.5s;
   }
   
@@ -253,7 +266,7 @@ footer{
     .nav-menu-link:hover,
     .nav-menu-link_active {
       background: none;
-      color: #83c5f7;
+      color: #c68e02;
     }
   
     .nav-toggle {
@@ -332,15 +345,16 @@ footer{
   /********************************************#343a4a*****************************************/
 
   
-  #menu-social {
-    padding: 20px 0;
+    #menu-social {
+    padding: 10px;
     background-color: #0769e9;
+    
     }
     #menu-social ul {
     list-style: none;
     text-align: center;
     margin: 0;
-    padding: 10px 0;
+    padding: 0;
     }
     #menu-social ul li {
     display: inline-block;
@@ -348,7 +362,7 @@ footer{
     }
     #menu-social li a {
     color: white;
-    margin: 0 10px;
+    margin: 0;
     }
     #menu-social li a:hover {
     color: #c68e02;
@@ -379,7 +393,6 @@ footer{
     #menu-social li a[href*="instagram.com"]::before {
       content: "\f16d";
     }
-    
    
   
     
