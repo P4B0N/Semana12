@@ -1,7 +1,7 @@
 Codo A Codo 4.0
 # Semana12 
 Sobre la realizacion del TP
-´´´´´´´´´´´´´´´´´´´´´´´´´´´
+***************************
 
 Realizamos un sitio web con 4 páginas activas, evaluables.
     Además preparamos un esbozo de frontend de una aplicación web
