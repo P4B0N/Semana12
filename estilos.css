@@ -36,7 +36,7 @@ footer{
   width: 100%;
   padding-top: 50%
 }
-/********************************************************************/
+/***************************************************************/
 
 .padre{
         display:flex;
@@ -68,7 +68,7 @@ footer{
 .derecho{background:green;}
 
 
-/******************************************************************/
+/***************************************************************/
 
    #Slider{
      font-family: sans-serif;
@@ -81,7 +81,7 @@ footer{
    }
    
    #Slider > ul, li {
-       padding: 10px;
+       padding: 0;
        margin: 0;
        list-style: none;
    }
@@ -127,16 +127,16 @@ footer{
    }
    
    #Slider > ul.slider li:first-child {
-       opacity: 1; /*Mostramos el primer <li>*/
+       opacity: 1;
    }
    
    #Slider > ul.slider li:target {
-       opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+       opacity: 1;
    }
    
    #slide-menu > .menu{
      text-align: center;
-     margin: 60px;
+     margin: 40px;
    }
    #slide-menu ul {
     list-style: none;
@@ -161,11 +161,8 @@ footer{
      font-size: 15px;
      border-radius: 50%;
    }
+   /************************************************************/
 
-   /*****************************************************/
-
-
-  
   .nav {
     display: flex;
     justify-content: space-between;
@@ -217,8 +214,7 @@ footer{
     background-color:#c68e02;
     transition: 0.5s;
   }
-  
-  /* TOGGLE */
+
   .nav-toggle {
     color: white;
     background: none;
@@ -233,8 +229,7 @@ footer{
   .nav-toggle:hover {
     color: #c68e02;
   }
-  
-  /* MOBILE */
+
   @media (max-width: 700px) {
     body {
       padding-top: 70px;
@@ -289,9 +284,11 @@ footer{
       outline: none;
     }
   }
-  /*************************************************************************/
+  /*************************************************************/
   
-  input[type=text], input[type=number], input[type=email], textarea {
+  input[type=text], input[type=tel],
+  input[type=number], input[type=email],
+  textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -304,7 +301,7 @@ footer{
     display: inline-block;
   }
   
-  input[type=submit] {
+  input[type=button] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
@@ -314,14 +311,14 @@ footer{
     float: centre;
   }
   
-  input[type=submit]:hover {
+  input[type=button]:hover {
     background-color: #45a049;
   }
   
   .container {
     border-radius: 10px;
     background-color: #e3f9fd;
-    padding: 20px;
+    padding: 10px;
   }
   
   .col-25 {
@@ -335,24 +332,21 @@ footer{
     width: 75%;
     margin-top: 5px;
   }
-  
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 700px) {
-    .col-25, .col-75, input[type=submit] {
+    .col-25, .col-75, input[type=button] {
       width: 100%;
       margin-top: 0;
     }
   }
-  /********************************************#343a4a*****************************************/
+  /*************************************************************/
 
-  
     #menu-social {
     padding: 10px;
     background-color: #0769e9;
