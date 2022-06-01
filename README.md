@@ -45,7 +45,4 @@ El formulario es completamente responsive, en el mismo se buscó mostrar una
     formulario y se envíen los datos al cerrar el alert, para así poder seguir 
     completando el formulario desde donde se cometió el error.
 
-Se usaron etiquetas semánticas, iconos, fuentes, colores de fuentes y se agrego un
-    favicon personalizado.
-    
-    
+Se usaron etiquetas semánticas, iconos, fuentes y colores de fuentes.
